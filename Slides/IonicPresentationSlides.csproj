@@ -40,9 +40,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="images\cordova-logo.png" />
-    <Content Include="images\cordova_bootstrap_knockout.png" />
-    <Content Include="images\cordova_jQueryMobile.png" />
-    <Content Include="images\cordova_KendoUiMobile.png" />
     <Content Include="images\ipad-hand.png" />
     <Content Include="images\ipad-screen.gif" />
     <Content Include="images\iphone-hand.png" />
