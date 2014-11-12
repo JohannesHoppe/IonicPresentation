@@ -1,0 +1,186 @@
+﻿<!doctype html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Vortrag: Apache Cordova und Frameworks für hybride Apps</title>
+
+        <meta name="description" content="Vortrag: Apache Cordova und Frameworks für hybride Apps">
+        <meta name="author" content="Johannes Hoppe">
+        
+        <link rel="shortcut icon" href="images/favicon.ico" >
+        <meta property="og:image" content="images/logo.png" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="lib/font/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/theme/neutral.css" id="theme">
+
+        <!-- For syntax highlighting -->
+        <!--<link rel="stylesheet" href="lib/css/zenburn.css">-->
+        <link href="lib/css/github.css" rel="stylesheet" />   
+        
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+            document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+
+                <section>
+                    <img src="images/logo.png" />         
+                    <h1 class="nowrap hidePrint" style="font-size: 2em;">Cordova</h1>
+                    <h2 class="nowrap hidePrint" style="font-size: 0.8em;">und Frameworks für hybride Apps</h2>
+
+                    <br class="hidePrint" />
+                    <br class="hidePrint" />
+                    <small class="hidePrint">Navigation mit <span class="key">Esc</span>, <span class="key">→</span> und <span class="key">↓</span></small>
+                </section>
+                
+                <section>
+                    <section data-markdown>
+                        ![tools](images/johannes.png)
+                     
+                        ### [johanneshoppe.de](http://johanneshoppe.de)
+                    </section>
+                </section>                 
+            
+            
+                <section>
+                    
+                    <section data-markdown>
+                        ## Mobile Apps?
+                        
+                        <div class="iphone"></div>
+                    </section>     
+
+                    <section data-markdown>
+                        ## Mobile Apps!
+                        
+                        1. Native apps
+                        2. Mobile optimized Websites
+                        3. **Hybrid apps**
+                    </section>          
+                    
+                    <section data-markdown>
+                        ![Codova](images/cordova-logo.png)
+                    </section>
+                    
+                    <section data-markdown>
+                        ![Phonegap](images/phonegap-you-keep-using-that-word.jpg)
+                    </section>
+                    
+                    <section data-markdown>
+                        ![Phonegap](images/web-view.png)
+                    </section>    
+                    
+                    <section data-markdown>
+                        ![Phonegap API](images/phonegap_API.png)
+                    </section>
+                </section> 
+                     
+                <section>
+                    
+                    <section data-markdown>
+                        ## Frameworks
+                        
+                        ![tools](images/icon_tool.png)
+                    </section> 
+
+                    
+                    <section data-markdown>
+                        ![Screenshot](images/cordova_bootstrap_knockout.png)
+                    </section>      
+                                   
+                    <section data-markdown>
+                        ![Screenshot](images/cordova_jQueryMobile.png)
+                    </section>    
+                                     
+                    <section data-markdown>
+                        ![Screenshot](images/cordova_KendoUiMobile.png)
+                    </section> 
+                </section>
+
+                <section>
+                    
+                    <section data-markdown>
+                        ## Downloads
+                        
+                        ![tools](images/icon_file.png)
+
+                        #### [github.com/JohannesHoppe](https://github.com/JohannesHoppe/HybridApps)
+                    </section> 
+                   
+                </section>
+
+                <section data-markdown>
+                    # Danke!
+                    
+                    <br/>
+                    ### [haushoppe-its.de](http://haushoppe-its.de)
+                </section> 
+            </div>
+
+        </div>
+        
+        <div class="pesentation-details">
+            <p>
+                Created by <a href="http://johanneshoppe.de" target="_blank">Johannes Hoppe</a>
+                <span >| <a href="?print-pdf" tooltip="activates PDF print stylesheet" target="_blank">Print PDF</a></span>
+            </p>
+        </div>
+
+
+        <script src="js/require.js"></script> 
+        <script src="js/require.config.js"></script> 
+           
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script> 
+
+        <script>
+
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                //minScale: 0.2,
+                //maxScale: 1.0,
+                controls: true,
+                progress: true,
+                history: true,
+                keyboard: true,
+                overview: true,
+                center: true,
+                rollingLinks: false,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'plugin/notes/notes.js', async: true, condition: function () { return !!document.body.classList; } },
+                    { src: 'plugin/showSource/showSource.js' }
+                    // { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+                ]
+            });
+
+        </script>
+    </body>
+</html>

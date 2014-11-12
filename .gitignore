@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+packages/
+*.user
+*.suo
+_Resharper*
+Thumbs.db
+.sass-cache
+debug.log
+node_modules
+.ntvs_analysis.dat
