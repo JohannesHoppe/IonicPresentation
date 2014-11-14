@@ -39,11 +39,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="images\cordova-logo-mini.png" />
     <Content Include="images\cordova-logo.png" />
+    <Content Include="images\img_mobile_hybrid_native.png" />
+    <Content Include="images\img_mobile_hybrid_native2.png" />
     <Content Include="images\ipad-hand.png" />
     <Content Include="images\ipad-screen.gif" />
     <Content Include="images\iphone-hand.png" />
     <Content Include="images\iphone-screen.gif" />
+    <Content Include="images\layer.png" />
+    <Content Include="images\logo-angularjs.svg" />
     <Content Include="images\phonegap-you-keep-using-that-word.jpg" />
     <Content Include="images\phonegap_API.png" />
     <Content Include="images\web-view.png" />
@@ -96,6 +101,11 @@
     <Content Include="lib\font\font-awesome\css\font-awesome.css" />
     <Content Include="lib\font\font-awesome\css\font-awesome.min.css" />
     <Content Include="lib\font\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="lib\font\ionicons\animation.html" />
+    <Content Include="lib\font\ionicons\cheatsheet.html" />
+    <Content Include="lib\font\ionicons\fonts\ionicons.svg" />
+    <Content Include="lib\font\ionicons\css\ionicons.css" />
+    <Content Include="lib\font\ionicons\css\ionicons.min.css" />
     <Content Include="lib\font\OpenSans\Apache License Version 2.txt" />
     <Content Include="lib\font\OpenSans\demo.html" />
     <Content Include="lib\font\OpenSans\OpenSans-Bold-webfont.svg" />
@@ -183,6 +193,10 @@
     <Content Include="lib\font\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="lib\font\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="lib\font\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="lib\font\ionicons\fonts\ionicons.eot" />
+    <Content Include="lib\font\ionicons\fonts\ionicons.ttf" />
+    <Content Include="lib\font\ionicons\fonts\ionicons.woff" />
+    <Content Include="lib\font\ionicons\LICENSE" />
     <None Include="lib\font\league_gothic-webfont.eot" />
     <None Include="lib\font\league_gothic-webfont.ttf" />
     <None Include="lib\font\league_gothic-webfont.woff" />
