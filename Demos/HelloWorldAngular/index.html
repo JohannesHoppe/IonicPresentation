@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Bootstrap 101 Template</title>
+    <head>
+        <meta charset="utf-8">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="myApp.js"></script>
+        
+        <title>Hello World Angular and UI-Router</title>
+    </head>
+    
+    <body ng-app="myApp" class="container">
+             
+        <a ui-sref="state1" class="btn btn-default" ui-sref-active="btn-success">State 1</a>
+        <a ui-sref="state2" class="btn btn-default" ui-sref-active="btn-success">State 2</a>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <hr/>
+      
+        <div ui-view class="jumbotron"></div>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    </body>
 </html>
