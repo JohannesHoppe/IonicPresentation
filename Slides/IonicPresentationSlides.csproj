@@ -39,19 +39,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="images\cordova-logo-mini.png" />
-    <Content Include="images\cordova-logo.png" />
+    <Content Include="images\img_ionic_phones.png" />
+    <Content Include="images\logo_app-builder.png" />
+    <Content Include="images\logo_cordova-mini.png" />
+    <Content Include="images\logo_cordova.png" />
     <Content Include="images\img_mobile_hybrid_native.png" />
     <Content Include="images\img_mobile_hybrid_native2.png" />
     <Content Include="images\ipad-hand.png" />
     <Content Include="images\ipad-screen.gif" />
     <Content Include="images\iphone-hand.png" />
     <Content Include="images\iphone-screen.gif" />
-    <Content Include="images\layer.png" />
-    <Content Include="images\logo-angularjs.svg" />
+    <Content Include="images\img_layer.png" />
+    <Content Include="images\logo_angularjs.svg" />
+    <Content Include="images\logo_ionic-creator.png" />
+    <Content Include="images\logo_ionic.svg" />
     <Content Include="images\phonegap-you-keep-using-that-word.jpg" />
     <Content Include="images\phonegap_API.png" />
-    <Content Include="images\web-view.png" />
+    <Content Include="images\screen_appbuilder.jpg" />
+    <Content Include="images\screen_creator-preview.png" />
+    <Content Include="images\img_web-view.png" />
     <Content Include="index.html" />
     <Content Include="images\icon_calendar.png" />
     <Content Include="images\icon_repeat.png" />

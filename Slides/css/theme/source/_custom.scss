@@ -207,4 +207,72 @@ iframe.spec {
 /* IE-Patch für IE 6*/
 * html .clearfix { height: 1%; }
 
+
+
+/* angularJS explanation */
+
+
+
+.angular_explanation {
+
+    .reveal .state-background {
+        background: #c8321e;
+    }
+
+    .angular_explanation_slide {
+
+        top: -350px !important;
+        display: block;
+
+
+        
+        .big_bg {
+            position: absolute;
+        }
+
+
+        .big_bg_js {
+
+            @extend .big_bg;
+            background-color: rgb(194, 51, 101);
+            width: 200%;
+            height: 1500px;
+            top: -100%;
+            left: -50%;
+            z-index: -3;
+
+        }
+
+        .big_bg_css {
+
+            @extend .big_bg;
+            background-color: rgb(88, 130, 186);
+            width: 200%;
+            height: 500%;
+            position: absolute;
+            top: 1050%;
+            left: 70%;
+            z-index: -2;
+        }
+
+        .big_bg_html {
+
+            @extend .big_bg;
+            background-color: rgb(124, 196, 51);
+            width: 100%;
+            height: 500%;
+            position: absolute;
+            top: 650%;
+            left: -64%;
+            z-index: -1;
+        }
+
+
+    }
+
+}
+
+
+/* END: angularJS explanation */
+
 /* ReSharper restore UnknownHtmlTag */
