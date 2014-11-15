@@ -87,7 +87,7 @@
                         * <h4>Distributionen</h4>   
                         * [Apache Cordova](http://cordova.apache.org/)
                         * [Adobe PhoneGap](http://phonegap.com/)
-                        * [Telerik AppBuilder](http://www.telerik.com/appbuilder) <i class="icon ion-heart fragment" style="color: darkred"></i>
+                        * [Telerik AppBuilder](http://www.telerik.com/appbuilder) <i class="icon ion-heart fragment" style="color: darkred"></i> <i class="icon ion-social-usd fragment" style="color: black"></i>
                         * [Visual Studio Tools for Apache Cordova](http://www.visualstudio.com/en-us/explore/cordova-vs.aspx)
                         * uvm...
                     </section>
@@ -173,7 +173,54 @@
                     <section data-markdown>
                         [![Logo Ionic Creator](images/logo_ionic-creator.png)](https://creator.ionic.io/)
                         [![Screenshot Ionic Creator](images/screen_creator-preview.png)](https://creator.ionic.io/)
+                    </section>   
+                                     
+                    <section data-markdown>
+                        ### Herunterladen / Einrichten
+                        <br/>
+
+                        ```html contenteditable 
+                        $ npm install -g cordova ionic 
+                        $ ionic start [appName] creator:573c5b5d1c22      
+                        $ cd [appName]
+                        
+                        Optional
+                        $ npm install gulp -g
+                        $ ionic setup sass            # auf Sass updaten 
+                        ```
                     </section>
+                    
+                    <section data-markdown>
+                        ### Corodova: Ionic Distibution
+                        <i class="icon ion-sad fragment" style="font-size: 2em"></i>
+                         
+                        ```html
+                        $ cd [appName]
+                        $ ionic serve                 # im Browser entwickeln! :-)
+                        
+                        $ ionic platform add android  # Java SDK, Apache Ant, Android SDK...  :-/
+                        $ ionic build android
+                        $ ionic emulate android   
+                        
+                        $ ionic platform add ios      # OS X? Nope! :-(
+                        ```
+                    </section>  
+                    
+                    <section data-markdown>
+                        ### Corodova: App Builder CLI
+                        <i class="icon ion-happy fragment" style="font-size: 2em"></i>
+                         
+                        ```html
+                        $ npm install -g appbuilder  
+                        $ appbuilder create hybrid [appName2] --template=Blank
+                        $ cd [appName2]  
+                        $ appbuilder simulate
+                        ```
+                        
+
+                        <small>[mehr Infos](http://developer.telerik.com/featured/supercharge-app-development-ionic-appbuilder/)</small>
+                    </section>
+                    
 
                 </section>
 
