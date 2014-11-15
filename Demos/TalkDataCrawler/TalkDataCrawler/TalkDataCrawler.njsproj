@@ -32,7 +32,6 @@
     <Compile Include="mdcCrawler.js" />
     <Compile Include="start.js" />
     <Content Include="package.json" />
-    <Content Include="README.md" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
   <ProjectExtensions>
