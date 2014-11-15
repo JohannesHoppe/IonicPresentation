@@ -8,6 +8,6 @@ Thumbs.db
 .sass-cache
 debug.log
 node_modules
-bower_components
+#bower_components
 npm-debug.log
 .ntvs_analysis.dat
