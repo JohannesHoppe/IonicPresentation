@@ -1,0 +1,23 @@
+{
+  "name": "HelloWorldAngular",
+  "version": "0.0.1",
+  "homepage": "https://github.com/JohannesHoppe/IonicPresentation",
+  "authors": [
+    "JohannesHoppe <johannes.hoppe@haushoppe-its.de>"
+  ],
+  "description": "A simple AngularJS page with Bootstrap and the ui-router",
+  "main": "index.html",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.2",
+    "bootstrap": "~3.3.1"
+  }
+}
