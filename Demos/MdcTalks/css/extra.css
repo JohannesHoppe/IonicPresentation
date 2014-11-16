@@ -1,0 +1,16 @@
+.bar.bar-positive {
+    background-color: #b30173;
+    border-color:  #810153;
+    /* background-image: none; */
+}
+
+
+.mdc-logo  {
+    background-image: url(../img/logo-MDC_kompakt-mini.png) !important;
+    background-position: top left !important;
+    background-repeat: no-repeat !important;
+}
+
+h1 {
+    color: #CB0075;
+}

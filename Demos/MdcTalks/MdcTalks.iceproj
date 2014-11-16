@@ -25,13 +25,46 @@
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
+    <Content Include="css\extra.css" />
     <Content Include="img\avatar-img.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Biswanger, Gregor.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Friese, Peter.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Hoppe, Johannes.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\James, Mike.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Junginger, Markus.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Keil, Werner.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Kilian, Antje.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Leidgens, Janusz.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Lobacher, Patrick.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Urff, Toby.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\Virkus, Robert.jpg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="index.html" />
     <Content Include="js\app.js" />
-    <Content Include="js\getData.js" />
-    <Content Include="js\talks_fallback.json" />
+    <Content Include="js\talks.js" />
     <Content Include="lib\ionic\css\ionic.css" />
     <Content Include="lib\ionic\css\ionic.min.css" />
     <Content Include="lib\ionic\fonts\ionicons.eot" />
@@ -92,6 +125,7 @@
     <Content Include="lib\ionic\scss\_util.scss" />
     <Content Include="lib\ionic\scss\_variables.scss" />
     <Content Include="lib\ionic\version.json" />
+    <Content Include="side-menu1.html" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
@@ -146,6 +180,7 @@
     <Folder Include="lib\ionic\js\angular\" />
     <Folder Include="lib\ionic\scss\" />
     <Folder Include="lib\ionic\scss\ionicons\" />
+    <Folder Include="css\" />
     <Folder Include="Plugins\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />
