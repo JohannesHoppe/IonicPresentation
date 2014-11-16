@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <style>
+      .angular-google-map-container {
+          width: 100%;
+          height: 504px;
+      }
+    </style>
+
+    <link href="/css/preview-frame.css" rel="stylesheet">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+
+    <script>
+// Ionic Starter App
+
+// angular.module is a global place for creating, registering and retrieving Angular modules
+// 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
+// the 2nd parameter is an array of 'requires'
+// 'starter.services' is found in services.js
+// 'starter.controllers' is found in controllers.js
+angular.module('app', ['ionic'])
+
+.run(function($ionicPlatform) {
+  $ionicPlatform.ready(function() {
+    // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
+    // for form inputs)
+    if(window.cordova && window.cordova.plugins.Keyboard) {
+      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+    }
+    if(window.StatusBar) {
+      // org.apache.cordova.statusbar required
+      StatusBar.styleDefault();
+    }
+  });
+})
+
+.config(function($stateProvider, $urlRouterProvider) {
+
+  // Ionic uses AngularUI Router which uses the concept of states
+  // Learn more here: https://github.com/angular-ui/ui-router
+  // Set up the various states which the app can be in.
+  // Each state's controller can be found in controllers.js
+  $stateProvider
+    
+    .state('side-menu1', {
+      url: '/menu',
+      templateUrl: 'side-menu1.html'
+    })
+    ;
+
+  // if none of the above states are matched, use this as the fallback
+  
+  $urlRouterProvider.otherwise('/menu');
+  
+
+});
+
+
+    </script>
+  </head>
+  <body ng-app="app" animation="slide-left-right-ios7">
+  <div>
+    <div>
+        <ion-nav-bar class="bar-stable">
+            <ion-nav-back-button class="button-icon icon ion-ios7-arrow-back">Back</ion-nav-back-button>
+        </ion-nav-bar>
+        <ion-nav-view></ion-nav-view>
+    </div>
+</div>
+<script id="side-menu1.html" type="text/ng-template">
+<ion-side-menus>
+    <ion-side-menu side="left">
+        <ion-header-bar class="bar-positive">
+            <h1 class="title">Talks</h1>
+        </ion-header-bar>
+        <ion-content padding="false" scroll="false" class="has-header">
+            <ion-list>
+                <ion-item>Item 1</ion-item>
+                <ion-item>Item 2</ion-item>
+                <ion-item>Item 3</ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+    <ion-pane ion-side-menu-content="">
+        <ion-content padding="true" scroll="false" class="has-header">
+            <h1>Talk Title</h1>
+            <ion-list>
+                <ion-item class="item-thumbnail-left">
+                    <img src="/img/avatar-img.png">
+                    <h2>Title</h2>
+                    <p>Item</p>
+                </ion-item>
+                <ion-item>Item 1</ion-item>
+                <ion-item class="item-divider">Item
+                    <div>
+                        <p>
+                            Add some
+                            <b>HTML</b>for
+                            <u>flavor</u>
+                        </p>
+                    </div>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+    </ion-pane>
+</ion-side-menus></script>
+  </body>
+</html>
