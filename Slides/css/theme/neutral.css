@@ -393,43 +393,4 @@ iframe.spec {
   height: 1%;
 }
 
-/* angularJS explanation */
-.angular_explanation .reveal .state-background {
-  background: #c8321e;
-}
-.angular_explanation .angular_explanation_slide {
-  top: -350px !important;
-  display: block;
-}
-.angular_explanation .angular_explanation_slide .big_bg, .angular_explanation .angular_explanation_slide .big_bg_js, .angular_explanation .angular_explanation_slide .big_bg_css, .angular_explanation .angular_explanation_slide .big_bg_html {
-  position: absolute;
-}
-.angular_explanation .angular_explanation_slide .big_bg_js {
-  background-color: #c23365;
-  width: 200%;
-  height: 1500px;
-  top: -100%;
-  left: -50%;
-  z-index: -3;
-}
-.angular_explanation .angular_explanation_slide .big_bg_css {
-  background-color: #5882ba;
-  width: 200%;
-  height: 500%;
-  position: absolute;
-  top: 1050%;
-  left: 70%;
-  z-index: -2;
-}
-.angular_explanation .angular_explanation_slide .big_bg_html {
-  background-color: #7cc433;
-  width: 100%;
-  height: 500%;
-  position: absolute;
-  top: 650%;
-  left: -64%;
-  z-index: -1;
-}
-
-/* END: angularJS explanation */
 /* ReSharper restore UnknownHtmlTag */
