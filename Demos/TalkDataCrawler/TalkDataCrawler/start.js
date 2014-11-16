@@ -33,7 +33,7 @@ dwxCrawler.on('complete', function (talks, offlineElement) {
     console.log("Writing talks to disk!");
 
     writeFile(fileNameJson, saveStringify([offlineElement].concat(talks)));
-    writeFile(fileNameJsonP, 'JSON_CALLBACK(' + saveStringify(talks) + ');');
+    writeFile(fileNameJsonP, 'angular.callbacks._0(' + saveStringify(talks) + ');');
 });
 
 dwxCrawler.start();
