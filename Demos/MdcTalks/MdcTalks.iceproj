@@ -30,7 +30,6 @@
     </Content>
     <Content Include="index.html" />
     <Content Include="js\app.js" />
-    <Content Include="js\index.js" />
     <Content Include="lib\ionic\css\ionic.css" />
     <Content Include="lib\ionic\css\ionic.min.css" />
     <Content Include="lib\ionic\fonts\ionicons.eot" />

@@ -6,25 +6,9 @@
         <title></title>
 
         <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-        <script src="lib/ionic/js/ionic.bundle.js"></script>
-        <script>
-
-            angular.module('app', ['ionic'])
-
-                .config(function ($stateProvider, $urlRouterProvider) {
-
-                    $stateProvider
-                        .state('side-menu1', {
-                            url: '/menu',
-                            templateUrl: 'side-menu1.html'
-                        });
-
-                    $urlRouterProvider.otherwise('/menu');
-
-                });
-
-
-        </script>
+        <script src="lib/ionic/js/ionic.bundle.js"></script>    
+        <script src="js/app.js"></script>    
+        
     </head>
     <body ng-app="app" animation="slide-left-right-ios7">
         <div>
@@ -38,7 +22,7 @@
             </div>
         </div>
 
-        < script id="side-menu1.html" type="text/ng-template">
+        <script id="side-menu1.html" type="text/ng-template">
             <ion-side-menus>
                   
                 <!-- Left menu -->
