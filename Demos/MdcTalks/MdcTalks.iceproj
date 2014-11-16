@@ -29,37 +29,40 @@
     <Content Include="img\avatar-img.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Biswanger, Gregor.jpg">
+    <Content Include="img\biswanger-gregor.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Friese, Peter.jpg">
+    <Content Include="img\friese-peter.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Hoppe, Johannes.jpg">
+    <Content Include="img\hoppe-johannes.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\James, Mike.jpg">
+    <Content Include="img\james-mike.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Junginger, Markus.jpg">
+    <Content Include="img\junginger-markus.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Keil, Werner.jpg">
+    <Content Include="img\keil-werner.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Kilian, Antje.jpg">
+    <Content Include="img\kilian-antje.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Leidgens, Janusz.jpg">
+    <Content Include="img\leidgens-janusz.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Lobacher, Patrick.jpg">
+    <Content Include="img\lobacher-patrick.jpg">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Urff, Toby.jpg">
+    <Content Include="img\logo-mdc.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\Virkus, Robert.jpg">
+    <Content Include="img\urff-toby.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\virkus-robert.jpg">
       <SubType>Content</SubType>
     </Content>
     <Content Include="index.html" />
