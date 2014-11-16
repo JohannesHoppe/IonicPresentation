@@ -41,6 +41,8 @@
   <ItemGroup>
     <Content Include="examples\HelloWorldAngular.js" />
     <Content Include="examples\HelloWorldAngular.html" />
+    <Content Include="images\img_demo_horizontal.png" />
+    <Content Include="images\img_demo_vertical.png" />
     <Content Include="images\img_ionic_phones.png" />
     <Content Include="images\logo_angularjs-mini.svg" />
     <Content Include="images\logo_app-builder.png" />
@@ -89,6 +91,7 @@
     <Content Include="js\domReady.js">
       <DependentUpon>require.js</DependentUpon>
     </Content>
+    <Content Include="css\theme\source\_custom.scss" />
     <None Include="js\jquery-2.0.3.intellisense.js">
       <DependentUpon>jquery-2.0.3.js</DependentUpon>
     </None>
