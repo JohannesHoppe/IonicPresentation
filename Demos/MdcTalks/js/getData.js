@@ -20,5 +20,7 @@ angular.module('app')
                         });
                 });
 
+            return deferred;
+
         };
     });
