@@ -25,10 +25,10 @@
     <Content Include="cordova.android.js" />
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
-    <Content Include="img\cordova.png" />
-    <Content Include="img\logo.png" />
+    <Content Include="img\avatar-img.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="index.html" />
-    <Content Include="index_old.html" />
     <Content Include="js\app.js" />
     <Content Include="js\index.js" />
     <Content Include="lib\ionic\css\ionic.css" />
@@ -122,6 +122,30 @@
     <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
     <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\ionic\" />
+    <Folder Include="lib\ionic\css\" />
+    <Folder Include="lib\ionic\fonts\" />
+    <Folder Include="lib\ionic\js\" />
+    <Folder Include="lib\ionic\js\angular-ui\" />
+    <Folder Include="lib\ionic\js\angular\" />
+    <Folder Include="lib\ionic\scss\" />
+    <Folder Include="lib\ionic\scss\ionicons\" />
+    <Folder Include="Plugins\" />
   </ItemGroup>
   <Import Project="$(IceniumTargets)Build.targets" />
 </Project>

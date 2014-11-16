@@ -29,19 +29,25 @@
     <body ng-app="app" animation="slide-left-right-ios7">
         <div>
             <div>
+                
                 <ion-nav-bar class="bar-stable">
                     <ion-nav-back-button class="button-icon icon ion-ios7-arrow-back">Back</ion-nav-back-button>
-                </ion-nav-bar>
+                </ion-nav-bar> 
+
                 <ion-nav-view></ion-nav-view>
             </div>
         </div>
 
-        <script id="side-menu1.html" type="text/ng-template">
+        < script id="side-menu1.html" type="text/ng-template">
             <ion-side-menus>
+                  
+                <!-- Left menu -->
                 <ion-side-menu side="left">
+                    
                     <ion-header-bar class="bar-positive">
                         <h1 class="title">Talks</h1>
                     </ion-header-bar>
+                    
                     <ion-content padding="false" scroll="false" class="has-header">
                         <ion-list>
                             <ion-item>Item 1</ion-item>
@@ -49,27 +55,40 @@
                             <ion-item>Item 3</ion-item>
                         </ion-list>
                     </ion-content>
-                </ion-side-menu>
+                </ion-side-menu> 
+                     
+                <!-- Center content -->
                 <ion-pane ion-side-menu-content="">
+                    
+                    
+                    <ion-header-bar class="bar-positive">
+                        <button class="button button-icon" menu-toggle="left">
+                          <i class="icon ion-navicon"></i>
+                        </button>
+                        <h1 class="title">Talk Details</h1>
+                    </ion-header-bar>
+
                     <ion-content padding="true" scroll="false" class="has-header">
+
                         <h1>Talk Title</h1>
+
                         <ion-list>
+                            
                             <ion-item class="item-thumbnail-left">
-                                <img src="/img/avatar-img.png">
-                                <h2>Title</h2>
-                                <p>Item</p>
+                                <img src="img/avatar-img.png">
+                                <h2>Name</h2>
+                                <p>Uhrzeit</p>
                             </ion-item>
-                            <ion-item>Item 1</ion-item>
-                            <ion-item class="item-divider">Item
-                                <div>
-                                    <p>
-                                        Add some
-                                        <b>HTML</b>for
-                                        <u>flavor</u>
-                                    </p>
-                                </div>
+
+                            <ion-item class="item-divider">
+
+                                <p>
+                                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                                </p>
+                                
                             </ion-item>
-                        </ion-list>
+                        </ion-list>    
+
                     </ion-content>
                 </ion-pane>
             </ion-side-menus>
