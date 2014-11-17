@@ -1,0 +1,11 @@
+{
+  "CorePlugins": [
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.splashscreen"
+  ],
+  "CordovaPluginVariables": {
+    "com.telerik.mobiletesting": {
+      "IOS_APP_URL": ""
+    }
+  }
+}
