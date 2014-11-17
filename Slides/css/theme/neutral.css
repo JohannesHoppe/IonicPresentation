@@ -193,7 +193,6 @@ img {
 }
 
 /* styles that are specific for this presentation */
-/* ReSharper disable UnknownHtmlTag */
 .nowrap {
   white-space: nowrap;
 }
@@ -274,14 +273,24 @@ ul.model span {
   width: 300px;
 }
 
-/*
 .reveal .state-background {
-    background-image: url('../../images/pixel.png');
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 454px 454px;
+  background-image: url("../../images/pixel.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  -webkit-transition: background-image 0.8s linear;
+  -moz-transition: background-image 0.8s linear;
+  -o-transition: background-image 0.8s linear;
+  transition: background-image 0.8s linear;
 }
-*/
+
+.mdc-logo .reveal .state-background {
+  background-image: url("../../images/logo_mdc.png");
+  -webkit-transition: background-image 0.8s linear;
+  -moz-transition: background-image 0.8s linear;
+  -o-transition: background-image 0.8s linear;
+  transition: background-image 0.8s linear;
+}
+
 code.small {
   font-size: 14px;
   line-height: 16px;
@@ -393,4 +402,31 @@ iframe.spec {
   height: 1%;
 }
 
-/* ReSharper restore UnknownHtmlTag */
+/* device preview */
+.device-preview {
+  height: 810px;
+  width: 435px;
+  background: url("../../images/img_iphone-case.png") no-repeat center center;
+  background-size: cover;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: none;
+  max-height: none;
+}
+.device-preview .device-screen {
+  margin: 0;
+  height: 568px;
+  width: 320px;
+  margin-top: 119px;
+  margin-left: 2px;
+  overflow: hidden;
+  background-color: white;
+  /*
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out; 
+  */
+  max-width: none;
+  max-height: none;
+}
+
+/* END: device preview */
