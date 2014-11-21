@@ -39,6 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="index_2014-11-18.html" />
     <Content Include="examples\HelloWorldAngular.js" />
     <Content Include="examples\HelloWorldAngular.html" />
     <Content Include="images\img_demo_horizontal.png" />
