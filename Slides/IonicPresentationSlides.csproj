@@ -39,11 +39,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="index_2014-11-18.html" />
     <Content Include="examples\HelloWorldAngular.js" />
     <Content Include="examples\HelloWorldAngular.html" />
     <Content Include="images\img_demo_horizontal.png" />
     <Content Include="images\img_demo_vertical.png" />
+    <Content Include="images\img_github_code.svg" />
     <Content Include="images\img_ionic_phones.png" />
+    <Content Include="images\img_iphone-case.png" />
+    <Content Include="images\img_phone-case.png" />
+    <Content Include="images\logo_alt.png" />
     <Content Include="images\logo_angularjs-mini.svg" />
     <Content Include="images\logo_app-builder.png" />
     <Content Include="images\logo_cordova-mini.png" />
@@ -58,6 +63,7 @@
     <Content Include="images\logo_angularjs.svg" />
     <Content Include="images\logo_ionic-creator.png" />
     <Content Include="images\logo_ionic.svg" />
+    <Content Include="images\logo_mdc.png" />
     <Content Include="images\phonegap-you-keep-using-that-word.jpg" />
     <Content Include="images\phonegap_API.png" />
     <Content Include="images\screen_appbuilder.jpg" />

@@ -33,6 +33,9 @@
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
+        
+        <!-- because of iframe: all links will open in a new window -->
+        <base target='_blank' />
     </head>
 
     <body>
@@ -83,7 +86,7 @@
                         * <h4>Distributionen</h4>   
                         * [Apache Cordova](http://cordova.apache.org/)
                         * [Adobe PhoneGap](http://phonegap.com/)
-                        * [Telerik AppBuilder](http://www.telerik.com/appbuilder) <i class="icon ion-heart fragment" style="color: darkred"></i> <i class="icon ion-social-usd fragment" style="color: black"></i>
+                        * [Telerik AppBuilder](http://www.telerik.com/appbuilder) <i class="icon ion-heart x-fragment" style="color: darkred"></i> <i class="icon ion-social-usd x-fragment" style="color: black"></i>
                         * [Visual Studio Tools for Apache Cordova](http://www.visualstudio.com/en-us/explore/cordova-vs.aspx)
                         * uvm...
                     </section>
@@ -110,11 +113,11 @@
                     <section data-markdown>
                         ## Hello World
 
-                        ```html contenteditable data-show-source="examples/HelloWorldAngular.html" fragment
+                        ```html contenteditable data-show-source="examples/HelloWorldAngular.html" x-fragment
                         loading source...
                         ```
 
-                        ```js contenteditable data-show-source="examples/HelloWorldAngular.js"  fragment
+                        ```js contenteditable data-show-source="examples/HelloWorldAngular.js"  x-fragment
                         loading source...
                         ```
 
@@ -155,7 +158,7 @@
                     
                     <section data-markdown>
                         ### Corodova: Ionic Distibution
-                        <i class="icon ion-sad fragment" style="font-size: 2em"></i>
+                        <i class="icon ion-sad x-fragment" style="font-size: 2em"></i>
                          
                         ```html
                         $ cd [appName]
@@ -171,7 +174,7 @@
                     
                     <section data-markdown>
                         ### Corodova: App Builder CLI
-                        <i class="icon ion-happy fragment" style="font-size: 2em"></i>
+                        <i class="icon ion-happy x-fragment" style="font-size: 2em"></i>
                          
                         ```html
                         $ npm install -g appbuilder  
@@ -242,6 +245,10 @@
                 overview: true,
                 center: true,
                 rollingLinks: false,
+
+                // CHANGE for video right side content
+                // not supported, so all fragments were remove by changing to x-fragment
+                fragments: false,
 
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
