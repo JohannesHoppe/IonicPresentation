@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}") = "FrankenTalks", "FrankenTalks.iceproj", "{016F9E3F-F3FB-4516-8CB7-EA85E4892D21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{C1AC21A8-4DB9-4633-8135-409352851BCE}"
+	ProjectSection(SolutionItems) = preProject
+		..\talks_callback.json = ..\talks_callback.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
