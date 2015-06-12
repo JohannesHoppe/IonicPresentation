@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{016f9e3f-f3fb-4516-8cb7-ea85e4892d21}</ProjectGuid>
+    <ProjectName>FrankenTalks</ProjectName>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <ProjectHome />
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' " />
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' " />
+  <ItemGroup>
+    <Content Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".debug.abproject" />
+    <Content Include=".release.abproject" />
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="css\extra.css" />
+    <Content Include="img\avatar-img.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\biswanger-gregor.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\friese-peter.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\hoppe-johannes.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\james-mike.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\junginger-markus.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\keil-werner.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\kilian-antje.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\leidgens-janusz.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\lobacher-patrick.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\urff-toby.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\virkus-robert.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="js\app.js" />
+    <Content Include="js\talks.js" />
+    <Content Include="lib\ionic\css\ionic.css" />
+    <Content Include="lib\ionic\css\ionic.min.css" />
+    <Content Include="lib\ionic\fonts\ionicons.eot" />
+    <Content Include="lib\ionic\fonts\ionicons.svg" />
+    <Content Include="lib\ionic\fonts\ionicons.ttf" />
+    <Content Include="lib\ionic\fonts\ionicons.woff" />
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.js" />
+    <Content Include="lib\ionic\js\angular-ui\angular-ui-router.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-animate.js" />
+    <Content Include="lib\ionic\js\angular\angular-animate.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-resource.js" />
+    <Content Include="lib\ionic\js\angular\angular-resource.min.js" />
+    <Content Include="lib\ionic\js\angular\angular-sanitize.js" />
+    <Content Include="lib\ionic\js\angular\angular-sanitize.min.js" />
+    <Content Include="lib\ionic\js\angular\angular.js" />
+    <Content Include="lib\ionic\js\angular\angular.min.js" />
+    <Content Include="lib\ionic\js\ionic-angular.js" />
+    <Content Include="lib\ionic\js\ionic-angular.min.js" />
+    <Content Include="lib\ionic\js\ionic.bundle.js" />
+    <Content Include="lib\ionic\js\ionic.bundle.min.js" />
+    <Content Include="lib\ionic\js\ionic.js" />
+    <Content Include="lib\ionic\js\ionic.min.js" />
+    <Content Include="lib\ionic\scss\ionic.scss" />
+    <Content Include="lib\ionic\scss\ionicons\ionicons.scss" />
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-animation.scss" />
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-font.scss" />
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-icons.scss" />
+    <Content Include="lib\ionic\scss\ionicons\_ionicons-variables.scss" />
+    <Content Include="lib\ionic\scss\_action-sheet.scss" />
+    <Content Include="lib\ionic\scss\_animations.scss" />
+    <Content Include="lib\ionic\scss\_backdrop.scss" />
+    <Content Include="lib\ionic\scss\_badge.scss" />
+    <Content Include="lib\ionic\scss\_bar.scss" />
+    <Content Include="lib\ionic\scss\_button-bar.scss" />
+    <Content Include="lib\ionic\scss\_button.scss" />
+    <Content Include="lib\ionic\scss\_checkbox.scss" />
+    <Content Include="lib\ionic\scss\_form.scss" />
+    <Content Include="lib\ionic\scss\_grid.scss" />
+    <Content Include="lib\ionic\scss\_items.scss" />
+    <Content Include="lib\ionic\scss\_list.scss" />
+    <Content Include="lib\ionic\scss\_loading.scss" />
+    <Content Include="lib\ionic\scss\_menu.scss" />
+    <Content Include="lib\ionic\scss\_mixins.scss" />
+    <Content Include="lib\ionic\scss\_modal.scss" />
+    <Content Include="lib\ionic\scss\_platform.scss" />
+    <Content Include="lib\ionic\scss\_popover.scss" />
+    <Content Include="lib\ionic\scss\_popup.scss" />
+    <Content Include="lib\ionic\scss\_progress.scss" />
+    <Content Include="lib\ionic\scss\_radio.scss" />
+    <Content Include="lib\ionic\scss\_range.scss" />
+    <Content Include="lib\ionic\scss\_reset.scss" />
+    <Content Include="lib\ionic\scss\_scaffolding.scss" />
+    <Content Include="lib\ionic\scss\_select.scss" />
+    <Content Include="lib\ionic\scss\_slide-box.scss" />
+    <Content Include="lib\ionic\scss\_tabs.scss" />
+    <Content Include="lib\ionic\scss\_toggle.scss" />
+    <Content Include="lib\ionic\scss\_type.scss" />
+    <Content Include="lib\ionic\scss\_util.scss" />
+    <Content Include="lib\ionic\scss\_variables.scss" />
+    <Content Include="lib\ionic\version.json" />
+    <Content Include="side-menu1.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="img\" />
+    <Folder Include="js\" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\ionic\" />
+    <Folder Include="lib\ionic\css\" />
+    <Folder Include="lib\ionic\fonts\" />
+    <Folder Include="lib\ionic\js\" />
+    <Folder Include="lib\ionic\js\angular-ui\" />
+    <Folder Include="lib\ionic\js\angular\" />
+    <Folder Include="lib\ionic\scss\" />
+    <Folder Include="lib\ionic\scss\ionicons\" />
+    <Folder Include="css\" />
+    <Folder Include="Plugins\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+</Project>

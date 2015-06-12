@@ -291,6 +291,14 @@ ul.model span {
   transition: background-image 0.8s linear;
 }
 
+.franken-logo .reveal .state-background {
+  background-image: url("../../images/logo_franken.png");
+  -webkit-transition: background-image 0.8s linear;
+  -moz-transition: background-image 0.8s linear;
+  -o-transition: background-image 0.8s linear;
+  transition: background-image 0.8s linear;
+}
+
 code.small {
   font-size: 14px;
   line-height: 16px;

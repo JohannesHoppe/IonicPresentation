@@ -1,0 +1,12 @@
+.bar.bar-positive {
+    background-color: #76bc13;
+    border-color:  #5b7930;
+}
+
+h1 {
+    color: #76bc13;
+}
+
+.scroll-content h1 {
+    font-size: 30px;
+}

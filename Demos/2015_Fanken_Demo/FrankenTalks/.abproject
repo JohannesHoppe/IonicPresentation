@@ -1,0 +1,48 @@
+{
+  "ProjectName": "FrankenTalks",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.MdcTalks",
+  "DisplayName": "Demo App zur MDC kompakt 2014",
+  "Author": "Johannes Hoppe",
+  "Description": "Eine Liste der Konferenzbeiträge der MDC kompakt!",
+  "BundleVersion": "1.0",
+  "Framework": "Cordova",
+  "FrameworkVersion": "3.5.0",
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "CorePlugins": [
+    "org.apache.cordova.device-orientation",
+    "org.apache.cordova.splashscreen"
+  ],
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "AndroidVersionCode": "1",
+  "iOSStatusBarStyle": "Default",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "WP8TileTitle": "Demo App zur MDC kompakt 2014",
+  "WP8Publisher": "Johannes Hoppe",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ],
+  "ProjectGuid": "{016f9e3f-f3fb-4516-8cb7-ea85e4892d21}",
+  "WP8PublisherID": "{02835b11-14ad-4dc8-8ba9-448d6f1849b1}",
+  "WP8ProductID": "{6dc1049a-908d-41d5-9b38-2517fc31f9e9}",
+  "CordovaPluginVariables": {
+    "com.telerik.mobiletesting": {
+      "IOS_APP_URL": ""
+    }
+  },
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.MdcTalks"
+}
