@@ -7,7 +7,7 @@ angular.module('app')
      */
     .factory('talksService', function($window, $http, $q) {
 
-        var url = 'http://johanneshoppe.github.io/IonicPresentation/Demos/TalkDataCrawler/talks_callback.json';
+        var url = 'http://johanneshoppe.github.io/IonicPresentation/Demos/2015_Franken_Demo/talks_callback.json';
 
         // tries to load talk data from internet, or uses localStorage as fallback
         var loadTalkData = function() {
@@ -55,7 +55,7 @@ angular.module('app')
 
             var r = talk.speaker.toLowerCase();
 
-            r = r.replace(new RegExp("\\s", 'g'), "");
+            r = r.replace(new RegExp("\\s", 'g'), "_");
             r = r.replace(new RegExp("[אבגדהו]", 'g'), "a");
             r = r.replace(new RegExp("ז", 'g'), "ae");
             r = r.replace(new RegExp("ח", 'g'), "c");
@@ -66,9 +66,10 @@ angular.module('app')
             r = r.replace(new RegExp("", 'g'), "oe");
             r = r.replace(new RegExp("[שתûü]", 'g'), "u");
             r = r.replace(new RegExp("[‎ÿ]", 'g'), "y");
-            r = r.replace(",", "-");
+            r = r.replace("&", "_");
+            r = r.replace(",", "_");
 
-            return "img/" + r + ".jpg";
+            return "img/" + r + ".png";
         };
     })
     .config(function($compileProvider) {

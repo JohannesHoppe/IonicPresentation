@@ -29,40 +29,61 @@
     <Content Include="cordova.ios.js" />
     <Content Include="cordova.wp8.js" />
     <Content Include="css\extra.css" />
+    <Content Include="img\alexander_witkowski.png">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="img\avatar-img.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\biswanger-gregor.jpg">
+    <Content Include="img\christian_giesswein.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\friese-peter.jpg">
+    <Content Include="img\daniel_marbach.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\hoppe-johannes.jpg">
+    <Content Include="img\eroeffnung.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\james-mike.jpg">
+    <Content Include="img\hendrik_loesch.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\junginger-markus.jpg">
+    <Content Include="img\jan_fellien.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\keil-werner.jpg">
+    <Content Include="img\jan_schweda.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\kilian-antje.jpg">
+    <Content Include="img\johannes_hoppe.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\leidgens-janusz.jpg">
+    <Content Include="img\logo-franken.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\lobacher-patrick.jpg">
+    <Content Include="img\marco_griesshammer.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\urff-toby.jpg">
+    <Content Include="img\marco_richardson.png">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="img\virkus-robert.jpg">
+    <Content Include="img\patric_boscolo.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\raphael_koellner.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\robert_eichenseer.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\sebastian_achatz.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\thomas_schissler.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\tim_bourguignon.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="img\ulli_udo.png">
       <SubType>Content</SubType>
     </Content>
     <Content Include="index.html" />
