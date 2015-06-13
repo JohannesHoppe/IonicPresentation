@@ -155,7 +155,6 @@
     <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
     <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
-    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
     <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
     <Resource Include="App_Resources\iOS\Default-Landscape.png" />
     <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />

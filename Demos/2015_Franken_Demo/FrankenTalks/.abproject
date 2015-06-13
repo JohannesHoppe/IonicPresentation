@@ -1,10 +1,10 @@
 {
   "ProjectName": "FrankenTalks",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.MdcTalks",
-  "DisplayName": "Demo App zur MDC kompakt 2014",
+  "AppIdentifier": "com.telerik.FrankenTalks",
+  "DisplayName": "Demo App zum .NET Day Franken 2015",
   "Author": "Johannes Hoppe",
-  "Description": "Eine Liste der Konferenzbeiträge der MDC kompakt!",
+  "Description": "Eine Liste der Konferenzbeiträge des .NET Day.",
   "BundleVersion": "1.0",
   "Framework": "Cordova",
   "FrameworkVersion": "3.5.0",
@@ -26,7 +26,7 @@
     "2"
   ],
   "iOSBackgroundMode": [],
-  "WP8TileTitle": "Demo App zur MDC kompakt 2014",
+  "WP8TileTitle": "Demo App zum .NET Day Franken 2015",
   "WP8Publisher": "Johannes Hoppe",
   "WP8Capabilities": [],
   "WP8Requirements": [],
@@ -37,12 +37,13 @@
   ],
   "ProjectGuid": "{016f9e3f-f3fb-4516-8cb7-ea85e4892d21}",
   "WP8PublisherID": "{02835b11-14ad-4dc8-8ba9-448d6f1849b1}",
-  "WP8ProductID": "{6dc1049a-908d-41d5-9b38-2517fc31f9e9}",
+  "WP8ProductID": "{1765c924-e95d-4e74-a98d-5de80540446b}",
   "CordovaPluginVariables": {
     "com.telerik.mobiletesting": {
       "IOS_APP_URL": ""
     }
   },
   "WP8WindowsPublisherName": "CN=Telerik",
-  "WP8PackageIdentityName": "1234Telerik.com.telerik.MdcTalks"
+  "WP8PackageIdentityName": "1234Telerik.com.telerik.FrankenTalks",
+  "WPSdk": "8.0"
 }
